@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+button {
+  background-color: #ba5d2c;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem;
+  transition: 0.3s;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  background-color: #75300a;
+}
+
+.App {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 2rem;
+  margin-top: 6rem;
+}
+
+.joke {
+  font-size: 1.2rem;
+}
